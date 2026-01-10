@@ -2,7 +2,7 @@ Exploratory Data Analysis: Superstore Sales Performance
 ---
 Business Overview
 
-Retail management needs to understand how sales and profitability evolve over time, how performance differs across regions and categories, and which products consistently drive profit.
+Retail management needs to understand how sales and profitability evolve over time, how performance differs across regions and categories, and which products drive profit consistently.
 This project uses exploratory data analysis (EDA) to uncover patterns, compare segments, and identify actionable insights using historical Superstore sales data.
 ***
 Objectives
@@ -41,7 +41,7 @@ Key Insight:
 
 3️⃣ Profitability & Product-Level Exploration
 
-Question: Which products generate the highest profit, and how sensitive are top performers to region and category?
+Question: Which products generate the highest profit, and how they differs according to region and category?
 
 Method:
 - Ranked products by sum of profit
@@ -52,18 +52,11 @@ Key Insight:
 - Top profitable products are not static; they change depending on region and category selection.
 - This suggests profitability is influenced not just by the product itself, but by market context, reinforcing the need for localized product strategies.
 ***
-Analytical Value Delivered
-- Translated raw transaction data into trend, comparison, and ranking analyses
-- Enabled self-service exploration via slicers for decision-makers
-- Identified:
--Seasonal sales patterns
-- Regional and category disparities
-- Context-dependent profit drivers
-***
 Tools & Techniques
 
 Microsoft Excel:
 - Pivot Tables & Pivot Charts
+- XLOOKUP & index match
 - Slicers for interactive filtering
 - Exploratory data analysis principles
 ***
