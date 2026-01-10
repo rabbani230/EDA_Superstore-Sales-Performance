@@ -1,31 +1,77 @@
-# Superstore Sales Dashboard
+Exploratory Data Analysis: Superstore Sales Performance
+---
+Business Overview
 
-## Overview
-An interactive dashboard analyzing Superstore sales from 2014 to 2017.
+Retail management needs to understand how sales and profitability evolve over time, how performance differs across regions and categories, and which products consistently drive profit.
+This project uses exploratory data analysis (EDA) to uncover patterns, compare segments, and identify actionable insights using historical Superstore sales data.
+***
+Objectives
 
-## Key Features
-- Total sales by region and category
-- Slicers for filtering by region and category
-- Monthly sales trends
-- Top 5 most profitable products
-- Lookup tools for Product Name and Customer Region
+The analysis was structured based on three core business questions:
+- How do sales trend over time, and are there recurring seasonal patterns?
+- How does sales performance vary across regions and product categories?
+- Which products contribute the most to profitability, and how does this change by segment?
+***
+EDA Approach & Visual Analysis
 
-## Insights Gained
-- Western region led in furniture sales
-- February saw a significant dip in sales
-- High-margin products are mostly in Technology category
+1️⃣ Sales Trend Analysis
 
-## Tools Used
-- Microsoft Excel
-- Pivot Tables, Charts
-- XLOOKUP & INDEX-MATCH
+Question: Are sales growing over time, and do certain months consistently outperform others?
 
-## Files Included
-- Raw dataset (.csv)
-- Dashboard file (.xlsx)
-- Screenshot (.png)
+Method:
+- Aggregated sales across 2014–2017 at a monthly level
+- Used a line chart to explore overall sales growth and seasonal fluctuations
+- Added a time slicer (Jan 2014 – Dec 2017) to isolate specific periods
 
-## Dataset
-- Source: Kaggle – Superstore Dataset by Vivek
-- File: `/excel-superstore-dashboard/Sample-Superstore-Raw.csv`
-- This raw dataset was used to build the dashboard in Excel.
+Key Insight:
+- Sales show a clear upward trend over the four-year period, indicating business growth.
+- Certain months consistently exhibit higher sales spikes, suggesting seasonality that could be leveraged for promotions and inventory planning.
+
+2️⃣ Regional & Category Performance Comparison
+
+Question: Which regions and product categories are driving sales, and where are underperforming areas?
+
+Method:
+- Compared sum of sales across regions (x-axis) and product categories (clustered columns)
+- Enabled slicers for Region and Category to support comparative analysis
+
+Key Insight:
+- Sales performance varies significantly by region and category.
+- Some categories perform strongly in specific regions but underperform in others, highlighting opportunities for region-specific product strategies.
+
+3️⃣ Profitability & Product-Level Exploration
+
+Question: Which products generate the highest profit, and how sensitive are top performers to region and category?
+
+Method:
+- Ranked products by sum of profit
+- Displayed Top 5 products using a horizontal bar chart
+- Dynamic filtering via Region and Category slicers
+
+Key Insight:
+- Top profitable products are not static; they change depending on region and category selection.
+- This suggests profitability is influenced not just by the product itself, but by market context, reinforcing the need for localized product strategies.
+***
+Analytical Value Delivered
+- Translated raw transaction data into trend, comparison, and ranking analyses
+- Enabled self-service exploration via slicers for decision-makers
+- Identified:
+-Seasonal sales patterns
+- Regional and category disparities
+- Context-dependent profit drivers
+***
+Tools & Techniques
+
+Microsoft Excel:
+- Pivot Tables & Pivot Charts
+- Slicers for interactive filtering
+- Exploratory data analysis principles
+***
+Outcome
+
+This EDA dashboard provides management with a high-level exploratory view of sales and profitability, supporting:
+- Strategic planning
+- Performance benchmarking
+- Hypothesis generation for deeper analysis (e.g., pricing, promotions, or supply chain efficiency)
+
+<img width="1221" height="802" alt="Dashboard_screenshot" src="https://github.com/user-attachments/assets/1be9d019-a457-4d99-b06b-9aa1f2780756" />
