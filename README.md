@@ -24,8 +24,8 @@ Method:
 - Added a time slicer (Jan 2014 – Dec 2017) to isolate specific periods
 
 Key Insight:
-- Sales show a clear upward trend over the four-year period, indicating business growth.
-- Certain months consistently exhibit higher sales spikes, suggesting seasonality that could be leveraged for promotions and inventory planning.
+- Total sales increased from 2014 to 2017, representing 51.4% overall growth as indicated clear upward trend.
+- Sales peaked in fourth quarter of each year, indicating a recurring seasonal high with approximately $118K in November 2017 as the highest sales recorded.
 
 2️⃣ Regional & Category Performance Comparison
 
@@ -36,8 +36,8 @@ Method:
 - Enabled slicers for Region and Category to support comparative analysis
 
 Key Insight:
-- Sales performance varies significantly by region and category.
-- Some categories perform strongly in specific regions but underperform in others, highlighting opportunities for region-specific product strategies.
+- The West region generated the highest total sales at approximately $725K, while the South region recorded the lowest sales at around $391K.
+- Across categories, Technology was the top-performing category, accounting for 36.4% of total sales.
 
 3️⃣ Profitability & Product-Level Exploration
 
@@ -49,8 +49,8 @@ Method:
 - Dynamic filtering via Region and Category slicers
 
 Key Insight:
-- Top profitable products are not static; they change depending on region and category selection.
-- This suggests profitability is influenced not just by the product itself, but by market context, reinforcing the need for localized product strategies.
+- The most profitable product generated approximately $25,200 in total profit.
+- The top 5 products accounted for [blank]% of total profit, indicating profit concentration risk.
 ***
 Tools & Techniques
 
