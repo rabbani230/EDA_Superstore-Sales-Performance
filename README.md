@@ -55,7 +55,7 @@ Method:
 - Dynamic filtering via Region and Category slicers
 
 Key Insight:
-- The most profitable product generated approximately $25,200 in total profit.
+- The most profitable product generated approximately $25,200 in total profit, putting it as profit leader in Technology category for all regions except for South.
 - The top 5 products accounted for 17% of total profit, indicating profit concentration risk.
 ***
 Tools & Techniques
