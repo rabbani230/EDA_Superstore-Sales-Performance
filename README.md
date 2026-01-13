@@ -5,12 +5,18 @@ Business Overview
 Retail management needs to understand how sales and profitability evolve over time, how performance differs across regions and categories, and which products drive profit consistently.
 This project uses exploratory data analysis (EDA) to uncover patterns, compare segments, and identify actionable insights using historical Superstore sales data.
 ***
-Objectives
-
-The analysis was structured based on three core business questions:
+Business Questions Addressed
 - How do sales trend over time, and are there recurring seasonal patterns?
-- How does sales performance vary across regions and product categories?
-- Which products contribute the most to profitability, and how does this change by segment?
+- How does sales performance differ across regions and product categories?
+- Which products drive profitability, and how does this vary by region and category?
+***
+Analytical Objectives
+
+To address the above questions, this analysis aims to:
+- Analyze monthly sales trends from 2014 to 2017 to identify growth patterns and seasonality.
+- Compare total sales across regions and product categories to highlight performance disparities.
+- Identify the top profit-contributing products and assess how profitability concentration changes across segments.
+- Enable interactive exploration using slicers to support ad-hoc business questions.
 ***
 EDA Approach & Visual Analysis
 
@@ -32,7 +38,7 @@ Key Insight:
 Question: Which regions and product categories are driving sales, and where are underperforming areas?
 
 Method:
-- Compared sum of sales across regions (x-axis) and product categories (clustered columns)
+- Compared sum of sales across regions and product categories (clustered columns)
 - Enabled slicers for Region and Category to support comparative analysis
 
 Key Insight:
@@ -50,7 +56,7 @@ Method:
 
 Key Insight:
 - The most profitable product generated approximately $25,200 in total profit.
-- The top 5 products accounted for [blank]% of total profit, indicating profit concentration risk.
+- The top 5 products accounted for 17% of total profit, indicating profit concentration risk.
 ***
 Tools & Techniques
 
