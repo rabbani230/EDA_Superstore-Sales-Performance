@@ -61,7 +61,7 @@ Key Insight:
 Tools & Techniques
 
 Microsoft Excel:
-- Pivot Tables & Pivot Charts
+- PivotTable & PivotChart
 - XLOOKUP & index match
 - Slicers for interactive filtering
 - Exploratory data analysis principles
