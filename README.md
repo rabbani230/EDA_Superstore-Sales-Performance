@@ -1,16 +1,15 @@
-Exploratory Data Analysis: Superstore Sales Performance
----
-Business Overview
+# Exploratory Data Analysis: Superstore Sales Performance
 
+### Business Overview
 Retail management needs to understand how sales and profitability evolve over time, how performance differs across regions and categories, and which products drive profit consistently.
 This project uses exploratory data analysis (EDA) to uncover patterns, compare segments, and identify actionable insights using historical Superstore sales data.
 ***
-Business Questions Addressed
+### Business Questions Addressed
 - How do sales trend over time, and are there recurring seasonal patterns?
 - How does sales performance differ across regions and product categories?
 - Which products drive profitability, and how does this vary by region and category?
 ***
-Analytical Objectives
+### Analytical Objectives
 
 To address the above questions, this analysis aims to:
 - Analyze monthly sales trends from 2014 to 2017 to identify growth patterns and seasonality.
@@ -18,7 +17,7 @@ To address the above questions, this analysis aims to:
 - Identify the top profit-contributing products and assess how profitability concentration changes across segments.
 - Enable interactive exploration using slicers to support ad-hoc business questions.
 ***
-EDA Approach & Visual Analysis
+### EDA Approach & Visual Analysis
 
 1️⃣ Sales Trend Analysis
 
@@ -58,7 +57,7 @@ Key Insight:
 - The most profitable product generated approximately $25,200 in total profit, putting it as profit leader in Technology category for all regions except for South.
 - The top 5 products accounted for 17% of total profit, indicating profit concentration risk.
 ***
-Tools & Techniques
+### Tools & Techniques
 
 Microsoft Excel:
 - PivotTable & PivotChart
@@ -66,11 +65,13 @@ Microsoft Excel:
 - Slicers for interactive filtering
 - Exploratory data analysis principles
 ***
-Outcome
+### Outcome
 
 This EDA dashboard provides management with a high-level exploratory view of sales and profitability, supporting:
 - Strategic planning
 - Performance benchmarking
 - Hypothesis generation for deeper analysis (e.g., pricing, promotions, or supply chain efficiency)
+
+The interactive dashboard can be downloaded [here](Analysis/Dataset).
 
 <img width="1221" height="802" alt="Dashboard_screenshot" src="https://github.com/user-attachments/assets/1be9d019-a457-4d99-b06b-9aa1f2780756" />
