@@ -64,6 +64,8 @@ Microsoft Excel:
 - XLOOKUP & index match
 - Slicers for interactive filtering
 - Exploratory data analysis principles
+
+The raw and analysis-ready datasets can be found [here](Analysis/Dataset).
 ***
 ### Outcome
 
@@ -72,6 +74,6 @@ This EDA dashboard provides management with a high-level exploratory view of sal
 - Performance benchmarking
 - Hypothesis generation for deeper analysis (e.g., pricing, promotions, or supply chain efficiency)
 
-The interactive dashboard can be downloaded [here](Analysis/Dataset).
+The interactive dashboard can be found [here](Analysis/Dataset/Superstore-Analysis.xlsx).
 
 <img width="1221" height="802" alt="Dashboard_screenshot" src="https://github.com/user-attachments/assets/1be9d019-a457-4d99-b06b-9aa1f2780756" />
